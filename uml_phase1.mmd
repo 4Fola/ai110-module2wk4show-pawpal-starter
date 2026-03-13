@@ -1,0 +1,52 @@
+
+%% Mermaid UML for PawPal+ (Phase 1)
+%% Save as: uml_phase1.mmd
+classDiagram
+    class Owner {
+        +uuid id
+        +str name
+        +list~Pet~ pets
+        +add_pet(pet: Pet) void
+        +get_pet(name: str) Pet|None
+        +get_all_tasks() list~Task~
+        +save_to_json(path: str) void  %% optional: persistence
+        +load_from_json(path: str) @staticmethod Owner  %% optional: persistence
+    }
+
+    class Pet {
+        +uuid id
+        +str name
+        +str species
+        +list~Task~ tasks
+        +add_task(task: Task) void
+        +remove_task(task_id: str) bool
+        +get_tasks() list~Task~
+    }
+
+    class Task {
+        +uuid id
+        +str description
+        +date date
+        +str start_time  %% HH:MM local time string; window logic is optional
+        +int duration_minutes
+        +Frequency frequency  %% ONCE/DAILY/WEEKLY/MONTHLY
+        +Priority priority  %% LOW/MEDIUM/HIGH
+        +bool completed
+        +mark_complete() void
+        +next_occurrence() Task|None  %% recurrence helper
+        +to_dict() dict
+        +from_dict(d: dict) @staticmethod Task
+    }
+
+    class Scheduler {
+        +sort_by_time(tasks: list~Task~) list~Task~
+        +sort_by_priority_then_time(tasks: list~Task~) list~Task~  %% optional: priority aware
+        +filter_tasks(tasks: list~Task~, pet_name: str=None, status: str=None, priority: Priority=None) list~Task~
+        +detect_conflicts(tasks: list~Task~) list~tuple~Task,Task,str~~  %% returns list of (task_a, task_b, reason)
+        +generate_schedule(owner: Owner, target_date: date, time_budget_minutes: int|None=None, priority_first: bool=True) dict
+    }
+
+    Owner "1" --> "*" Pet : has
+    Pet "1" --> "*" Task : has
+    Scheduler ..> Owner : reads
+    Scheduler ..> Task : organizes
