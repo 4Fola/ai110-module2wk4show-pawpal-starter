@@ -3,5 +3,5 @@ __pycache__/
 .venv_new/
 .pytest_cache/
 .DS_Store
-.appX
-.appXX
+.appX.py
+.appXX.py
