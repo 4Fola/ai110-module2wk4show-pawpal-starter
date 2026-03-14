@@ -22,17 +22,22 @@
 # Confidence Level: &starf; &starf; &starf; &starf; &starf;
 
 ### 🧪 Tests
-Final Demo:
+**Final Demo**:
 <img src="FinalDemo.gif" alt="Final Demo">
-Phase 2:
+
+**Phase 2**:
 <img src="Phase2-QuickTest.jpg" alt="Phase 2 quick test">
-Phase 4 & 5:
+
+**Phase 4 & 5**:
 <img src="Phase4_5-QuickTest.jpg" alt="Phase 4&5 quick test">
-Phase V:
+
+**Phase V**:
 <img src="Phase5-AutoTest.jpg" alt="Phase 5 automated test">
-App run CLI & Web UI:
+
+**App run CLI & Web UI**:
 <img src="PawPal+.gif" alt="PawPal+ CLI & Streamlit Demo">
-Table Preview:
+
+**Table Preview**:
 <img src="TablePreview.jpg" alt="Table Preview">
 
 ## 🧪 Tests
