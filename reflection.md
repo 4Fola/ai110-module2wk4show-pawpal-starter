@@ -14,6 +14,7 @@
 
 ---
 
+
 ## 2. Scheduling Logic and Tradeoffs
 
 **a. Constraints and priorities**

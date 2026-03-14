@@ -1,0 +1,2894 @@
+{
+  "id": "bcafcd3e-c623-4de9-80d8-3b4fe598a182",
+  "name": "Demo Owner",
+  "pets": [
+    {
+      "id": "25c9407b-e436-49c4-ac51-d409eb4488d3",
+      "name": "Buddy",
+      "species": "Dog",
+      "tasks": [
+        {
+          "id": "37bd579b-ccd3-4491-b146-757309637f45",
+          "description": "Morning walk",
+          "date": "2026-03-14",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": true
+        },
+        {
+          "id": "75043d6f-50b1-4ee3-8ba6-e471adfc6aa7",
+          "description": "Feed breakfast",
+          "date": "2026-03-14",
+          "start_time": "07:30",
+          "duration_minutes": 10,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "26be1293-4a8c-4837-94e6-163f13e02a52",
+          "description": "Morning walk",
+          "date": "2026-03-15",
+          "start_time": "08:00",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "91b31d1d-4987-4457-853d-acd32a78009d",
+          "description": "Bath",
+          "date": "2026-04-08",
+          "start_time": "16:10",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1e697c48-f598-4f5e-a085-936e0a30fadc",
+          "description": "Training",
+          "date": "2026-04-23",
+          "start_time": "19:45",
+          "duration_minutes": 30,
+          "frequency": "monthly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "a27a783a-4dfe-4202-9c24-5df804b3ae4a",
+          "description": "Brushing",
+          "date": "2026-04-08",
+          "start_time": "15:25",
+          "duration_minutes": 5,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d3c0c0a4-3903-4ec8-bedd-add6e8b62689",
+          "description": "Weight check",
+          "date": "2026-03-26",
+          "start_time": "14:35",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c0486245-0f6c-4ce9-a281-5fe1bb73cfaa",
+          "description": "Feed dinner",
+          "date": "2026-04-10",
+          "start_time": "15:55",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "c275013f-3b90-4434-8c45-0a7cc8f52bc8",
+          "description": "Morning walk",
+          "date": "2026-04-23",
+          "start_time": "15:30",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d7843cb5-1a19-4f61-a33e-0285e23e8ab8",
+          "description": "Feed breakfast",
+          "date": "2026-03-22",
+          "start_time": "17:10",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1c1f121d-2cc1-488f-8956-8e94a4348a9e",
+          "description": "Brushing",
+          "date": "2026-04-14",
+          "start_time": "11:25",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "0f657018-bb3b-46ab-ba5a-7d69bfc7c9fc",
+          "description": "Nail trim",
+          "date": "2026-04-01",
+          "start_time": "08:45",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "da0bbd8c-6ae1-408f-a74a-599e36bad265",
+          "description": "Bath",
+          "date": "2026-03-20",
+          "start_time": "16:20",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ba22eb08-9a81-4f97-b983-16d29453c36c",
+          "description": "Morning walk",
+          "date": "2026-03-26",
+          "start_time": "07:20",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "bc64b428-d7d4-4f74-a5f0-7f212aafaaa1",
+          "description": "Brushing",
+          "date": "2026-04-13",
+          "start_time": "15:35",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "68414492-1ea4-4f3e-8390-1831eb536af3",
+          "description": "Administer meds",
+          "date": "2026-03-26",
+          "start_time": "07:40",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "bd126681-825d-4aa9-8be1-5c1ac4fd011c",
+          "description": "Nail trim",
+          "date": "2026-04-09",
+          "start_time": "10:30",
+          "duration_minutes": 10,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "4d707b33-317d-41c1-b8ea-ff00c1cdd90a",
+          "description": "Flea treatment",
+          "date": "2026-03-25",
+          "start_time": "09:35",
+          "duration_minutes": 5,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "aceca462-a039-4015-a025-993317afe1c1",
+          "description": "Weight check",
+          "date": "2026-04-26",
+          "start_time": "14:50",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "63efa95c-8ca1-405b-bb2f-2175261a8d32",
+          "description": "Feed breakfast",
+          "date": "2026-04-17",
+          "start_time": "20:50",
+          "duration_minutes": 5,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "969a32d3-bb9a-4187-a6e9-3a2d68397fde",
+          "description": "Brushing",
+          "date": "2026-03-27",
+          "start_time": "11:45",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "878a4230-c3ff-4d80-94f1-1e33b44523b6",
+          "description": "Vet check",
+          "date": "2026-04-02",
+          "start_time": "14:20",
+          "duration_minutes": 45,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c44de964-ccc1-4b7a-8ed1-53488adbeb6d",
+          "description": "Grooming",
+          "date": "2026-04-10",
+          "start_time": "11:10",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "cb866a8d-593b-4360-9e96-fd6ae0bfcf89",
+          "description": "Weight check",
+          "date": "2026-04-13",
+          "start_time": "12:35",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9bb59342-43d4-4d64-ac23-ae4fb969b60d",
+          "description": "Brushing",
+          "date": "2026-04-10",
+          "start_time": "11:25",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "67de6c82-b1ae-47b5-946a-6d3252b1bbec",
+          "description": "Morning walk",
+          "date": "2026-03-28",
+          "start_time": "15:00",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a6f22119-451c-409c-9b53-41c33af9bed7",
+          "description": "Feed dinner",
+          "date": "2026-03-31",
+          "start_time": "20:15",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "97ee4a32-b0b0-409d-a3ce-4e24f2107caa",
+          "description": "Grooming",
+          "date": "2026-04-22",
+          "start_time": "06:40",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "199ef654-ba3e-4402-9d0f-30484f2ead70",
+          "description": "Morning walk",
+          "date": "2026-03-28",
+          "start_time": "12:40",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "020ba269-b87c-4c9b-b880-01d510be1218",
+          "description": "Vet check",
+          "date": "2026-03-26",
+          "start_time": "13:55",
+          "duration_minutes": 35,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "70d93559-aab4-4ba7-b6b2-394bf6a734b5",
+          "description": "Teeth cleaning",
+          "date": "2026-04-13",
+          "start_time": "07:45",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "cc1fa25a-b9e4-4c00-9aaf-f012081a0f85",
+          "description": "Training",
+          "date": "2026-04-20",
+          "start_time": "10:40",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e4af6fc3-9886-4dbf-9167-b4c6706a8151",
+          "description": "Evening walk",
+          "date": "2026-04-10",
+          "start_time": "06:25",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "4b7e36fe-69ee-45ea-9886-1e3b78c81f96",
+          "description": "Nail trim",
+          "date": "2026-04-09",
+          "start_time": "09:25",
+          "duration_minutes": 25,
+          "frequency": "monthly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "1711ac38-2991-4c63-aa6d-b7141e5af9c2",
+          "description": "Teeth cleaning",
+          "date": "2026-04-06",
+          "start_time": "20:10",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "42d66766-1d64-4f77-b39b-95d07bc8eb9b",
+          "description": "Training",
+          "date": "2026-03-16",
+          "start_time": "06:40",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6655046d-ffba-45cb-8d49-b082666c43cb",
+          "description": "Feed breakfast",
+          "date": "2026-03-27",
+          "start_time": "19:10",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "f14dd3ce-150d-4f10-aab6-7e56da865ab9",
+          "description": "Brushing",
+          "date": "2026-03-17",
+          "start_time": "16:30",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3c48a4c8-4f85-4f03-a207-c608818f6755",
+          "description": "Feed breakfast",
+          "date": "2026-03-29",
+          "start_time": "13:40",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "8ac0ac6e-a4e1-40c7-9286-f8c73c4725a4",
+          "description": "Weight check",
+          "date": "2026-03-29",
+          "start_time": "14:20",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "8d56a0d5-dd26-4809-9a6a-ff9c6a750253",
+          "description": "Teeth cleaning",
+          "date": "2026-03-23",
+          "start_time": "12:50",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "4c5e858a-e982-41b5-801c-9fc36101fc62",
+          "description": "Feed dinner",
+          "date": "2026-03-28",
+          "start_time": "12:05",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "85ff579b-9593-42c5-a799-1c41ad82b4ce",
+          "description": "Litter clean",
+          "date": "2026-03-28",
+          "start_time": "07:50",
+          "duration_minutes": 40,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "00731e32-50db-4dc7-b03c-6f6f63e5216e",
+          "description": "Morning walk",
+          "date": "2026-04-24",
+          "start_time": "06:45",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "682afa07-3c05-4868-a4bd-5c92e3db3f01",
+          "description": "Playtime",
+          "date": "2026-04-06",
+          "start_time": "09:35",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e8e98e9d-2b05-4035-abb0-7facffcba436",
+          "description": "Administer meds",
+          "date": "2026-04-21",
+          "start_time": "17:40",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "97f20918-dff5-4d9d-b5eb-5dd402323c92",
+          "description": "Flea treatment",
+          "date": "2026-03-17",
+          "start_time": "10:10",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e03d4dd1-e5ef-4273-b30b-bb2e543a2d26",
+          "description": "Vet check",
+          "date": "2026-03-18",
+          "start_time": "17:45",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "7e5308ac-1ae3-41ae-9c23-8752a3cab7c8",
+          "description": "Morning walk",
+          "date": "2026-04-25",
+          "start_time": "08:20",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "34e12d81-16f0-4ef0-8cc4-df53dad6869e",
+          "description": "Grooming",
+          "date": "2026-04-27",
+          "start_time": "15:10",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3c63a1d5-d199-4be4-b4e7-4bb3899a34b8",
+          "description": "Bath",
+          "date": "2026-03-24",
+          "start_time": "15:35",
+          "duration_minutes": 15,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "d6a4fa47-a4f1-4f82-806f-b2c2e1e1d790",
+          "description": "Feed dinner",
+          "date": "2026-03-16",
+          "start_time": "12:25",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7c8a5061-c8b5-454a-a612-d04aec2fd712",
+          "description": "Teeth cleaning",
+          "date": "2026-04-16",
+          "start_time": "19:25",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "48d8fc60-4326-41ba-ac47-09def010cfc3",
+          "description": "Training",
+          "date": "2026-03-23",
+          "start_time": "10:40",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ad97d3f1-26c7-4d4c-813e-b9bca32516b9",
+          "description": "Grooming",
+          "date": "2026-03-14",
+          "start_time": "06:20",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "1179e304-7c5b-43a8-8407-979578ecab85",
+          "description": "Weight check",
+          "date": "2026-03-30",
+          "start_time": "17:55",
+          "duration_minutes": 15,
+          "frequency": "monthly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "ebfed903-c210-4953-a210-be10d7252b53",
+          "description": "Grooming",
+          "date": "2026-04-04",
+          "start_time": "13:30",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "5452ad3a-ae52-474e-be1b-da9e91b6f582",
+          "description": "Playtime",
+          "date": "2026-04-01",
+          "start_time": "17:45",
+          "duration_minutes": 30,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "9577930a-c76f-4946-9f76-32bee07e9743",
+          "description": "Feed dinner",
+          "date": "2026-04-03",
+          "start_time": "15:15",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "59e3f0ee-e96f-4b74-84f3-e9d7b798b168",
+          "description": "Morning walk",
+          "date": "2026-03-24",
+          "start_time": "08:00",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9359be47-8127-4f39-b66f-4000d13e1cfe",
+          "description": "Weight check",
+          "date": "2026-03-16",
+          "start_time": "07:10",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "639c0041-b877-4bcb-a371-615e2802933b",
+          "description": "Flea treatment",
+          "date": "2026-03-21",
+          "start_time": "19:35",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "453cb2e7-9ab1-49f7-a0ac-a5f5994a7cf0",
+          "description": "Playtime",
+          "date": "2026-03-19",
+          "start_time": "07:05",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "dc91a874-9a0f-4573-842e-517b74a02370",
+          "description": "Litter clean",
+          "date": "2026-04-10",
+          "start_time": "08:40",
+          "duration_minutes": 45,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9ac1ab4f-f88f-4421-b95d-b36c34d37967",
+          "description": "Playtime",
+          "date": "2026-03-25",
+          "start_time": "12:05",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "7ae97d26-c97b-4e92-a749-789853c945be",
+          "description": "Brushing",
+          "date": "2026-04-01",
+          "start_time": "18:30",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "f2a297b6-2c0e-4af8-86aa-9f52e47cdb14",
+          "description": "Playtime",
+          "date": "2026-04-10",
+          "start_time": "20:40",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "343fdf3d-4c90-4698-99bc-b0103b2606c4",
+          "description": "Training",
+          "date": "2026-04-12",
+          "start_time": "17:45",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "4df3f2bc-1df2-42ab-8f3b-759d6d4615ff",
+          "description": "Morning walk",
+          "date": "2026-03-25",
+          "start_time": "15:50",
+          "duration_minutes": 15,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "79321763-480e-47f4-b3d9-6fb53693d240",
+          "description": "Nail trim",
+          "date": "2026-04-06",
+          "start_time": "19:55",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "85f4b25e-0f2d-4f71-8196-c67f169e83b4",
+          "description": "Litter clean",
+          "date": "2026-03-27",
+          "start_time": "10:05",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "0141e204-3c00-48c3-be3b-7d9bf06bb593",
+          "description": "Feed breakfast",
+          "date": "2026-03-22",
+          "start_time": "14:00",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "cf8fce86-d65c-496a-89d0-0b149cf981c7",
+          "description": "Grooming",
+          "date": "2026-04-10",
+          "start_time": "20:30",
+          "duration_minutes": 40,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e2e86bd2-c802-445f-aae3-d7177de4f6ea",
+          "description": "Morning walk",
+          "date": "2026-04-06",
+          "start_time": "12:05",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "e1f51ca4-7232-4a7e-a531-f6ea13c38968",
+      "name": "Mika",
+      "species": "Cat",
+      "tasks": [
+        {
+          "id": "29914de5-f554-490d-b24a-4ad173efcbab",
+          "description": "Administer meds",
+          "date": "2026-03-14",
+          "start_time": "09:15",
+          "duration_minutes": 5,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": true
+        },
+        {
+          "id": "57b1d5a5-3c00-4433-a821-b0115d67061e",
+          "description": "Grooming session",
+          "date": "2026-03-14",
+          "start_time": "13:00",
+          "duration_minutes": 45,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5ef16f39-7f23-41c2-937e-873fb9364ab0",
+          "description": "Administer meds",
+          "date": "2026-03-21",
+          "start_time": "09:15",
+          "duration_minutes": 5,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "350fbbd4-9546-4450-9e2e-62994fc607e3",
+          "description": "Training",
+          "date": "2026-04-21",
+          "start_time": "17:55",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "2c5d19c8-583d-4815-9cfb-8cf9e71ed8c0",
+          "description": "Nail trim",
+          "date": "2026-04-20",
+          "start_time": "16:15",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "da269328-7b78-4e23-9913-6d306698508c",
+          "description": "Feed breakfast",
+          "date": "2026-03-16",
+          "start_time": "19:05",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a5989169-818e-417f-93fb-89a384f230a8",
+          "description": "Playtime",
+          "date": "2026-04-14",
+          "start_time": "20:20",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ff86de49-10f6-43ce-8c3d-454be237ffd5",
+          "description": "Vet check",
+          "date": "2026-03-23",
+          "start_time": "06:35",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6d14ba90-6fed-4d27-83fe-70d7aa0562b5",
+          "description": "Teeth cleaning",
+          "date": "2026-04-11",
+          "start_time": "15:00",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "03d4c1dd-0ae5-4a6b-bb69-29ae75551b40",
+          "description": "Grooming",
+          "date": "2026-04-24",
+          "start_time": "11:40",
+          "duration_minutes": 15,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "f3a4bdeb-6ae3-4b3c-8b33-781d426010f8",
+          "description": "Training",
+          "date": "2026-04-23",
+          "start_time": "19:00",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d06f6f12-de71-474e-b3f1-a5a22120a7b1",
+          "description": "Feed dinner",
+          "date": "2026-03-16",
+          "start_time": "07:30",
+          "duration_minutes": 5,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7a5d80c2-6fe0-4722-a540-6afea1c988aa",
+          "description": "Teeth cleaning",
+          "date": "2026-03-26",
+          "start_time": "19:50",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "1b30edae-c9bb-41ae-ac75-39f3a5bf313d",
+          "description": "Feed breakfast",
+          "date": "2026-04-21",
+          "start_time": "09:35",
+          "duration_minutes": 30,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e7eaacd9-df6e-4b25-9408-e2c406140e3f",
+          "description": "Nail trim",
+          "date": "2026-03-18",
+          "start_time": "18:05",
+          "duration_minutes": 35,
+          "frequency": "monthly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "3a9834a8-801b-4114-8e6a-356e85e9c3fe",
+          "description": "Litter clean",
+          "date": "2026-04-26",
+          "start_time": "09:25",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "02048c9a-7c5d-4aac-b226-51798ca57ce6",
+          "description": "Weight check",
+          "date": "2026-03-31",
+          "start_time": "19:10",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7c86587d-d91e-419d-849c-4df6db324537",
+          "description": "Grooming",
+          "date": "2026-03-22",
+          "start_time": "14:30",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5d6a17a9-59b4-4151-b928-fea4fa4d5a5d",
+          "description": "Feed dinner",
+          "date": "2026-03-19",
+          "start_time": "14:15",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "1266cf43-a552-4277-8a3e-a5b82d5d1bf9",
+          "description": "Weight check",
+          "date": "2026-04-04",
+          "start_time": "20:30",
+          "duration_minutes": 60,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "61f0772d-0d3e-4eed-aecc-d86c90c68bd3",
+          "description": "Nail trim",
+          "date": "2026-04-27",
+          "start_time": "09:15",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "eb543fb9-90d5-4e78-b79e-d64b50be590b",
+          "description": "Administer meds",
+          "date": "2026-04-16",
+          "start_time": "06:05",
+          "duration_minutes": 35,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "fca84a46-7c2a-43fd-8975-8fd1e82efdcb",
+          "description": "Playtime",
+          "date": "2026-03-18",
+          "start_time": "09:10",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "dbe1b789-2a44-4268-8473-37faa4edf728",
+          "description": "Grooming",
+          "date": "2026-04-09",
+          "start_time": "09:10",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e26d5a8f-7a33-477c-bee4-484d3a09e306",
+          "description": "Weight check",
+          "date": "2026-03-22",
+          "start_time": "13:40",
+          "duration_minutes": 20,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "962c746e-b03d-424d-9d8a-e39144008a60",
+          "description": "Evening walk",
+          "date": "2026-03-26",
+          "start_time": "07:00",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "83f1bf76-83a8-4c77-bf59-7067b1f52e38",
+          "description": "Feed breakfast",
+          "date": "2026-04-06",
+          "start_time": "16:10",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c2c06cdd-4047-4846-92a7-5975bd5badbd",
+          "description": "Morning walk",
+          "date": "2026-04-16",
+          "start_time": "07:00",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "a58c161b-6999-45e5-892f-a8aa0be2e49c",
+          "description": "Feed dinner",
+          "date": "2026-03-14",
+          "start_time": "08:05",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d2954e70-9223-4844-a12e-963d4c510cfd",
+          "description": "Administer meds",
+          "date": "2026-03-27",
+          "start_time": "14:20",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "b7f0adf7-a61c-4bf4-8e8d-768edf219380",
+          "description": "Bath",
+          "date": "2026-04-08",
+          "start_time": "09:30",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9c91aaab-2ee1-471c-b9b1-e4a898e469e7",
+          "description": "Feed breakfast",
+          "date": "2026-04-18",
+          "start_time": "15:15",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "4ed593a3-3c32-4361-bffa-38b822b56d6c",
+          "description": "Vet check",
+          "date": "2026-03-15",
+          "start_time": "19:10",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "f1054a9d-36ce-43c5-8f74-9c294caf123c",
+          "description": "Playtime",
+          "date": "2026-03-14",
+          "start_time": "12:05",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3799d179-3a1e-46cb-ad03-78c77b8ba830",
+          "description": "Teeth cleaning",
+          "date": "2026-03-21",
+          "start_time": "14:55",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "f387ebd3-b8ba-4cbf-b1ec-c4421a2cc820",
+          "description": "Litter clean",
+          "date": "2026-04-11",
+          "start_time": "14:55",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e3075de7-d753-4c5f-b60a-26aeb68a1617",
+          "description": "Feed dinner",
+          "date": "2026-04-04",
+          "start_time": "07:30",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "d4b23a0b-959f-4aa5-886f-e10ca62e40cc",
+          "description": "Playtime",
+          "date": "2026-04-10",
+          "start_time": "09:45",
+          "duration_minutes": 30,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "22f0d2ed-4fb3-448c-8627-c6546d006551",
+          "description": "Playtime",
+          "date": "2026-04-18",
+          "start_time": "13:10",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6193cfda-9657-43e7-86f9-4b8d8a0757e5",
+          "description": "Litter clean",
+          "date": "2026-04-02",
+          "start_time": "13:55",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "95df8d7b-afaf-4e78-8f71-b975f6823ade",
+          "description": "Nail trim",
+          "date": "2026-04-07",
+          "start_time": "14:30",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "09971a5d-f4b7-4bce-8f42-dfb95e5ffa19",
+          "description": "Playtime",
+          "date": "2026-04-10",
+          "start_time": "14:05",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "c701dfe9-f3ba-44a8-b15c-90928d2d30b8",
+          "description": "Brushing",
+          "date": "2026-04-21",
+          "start_time": "10:35",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "16077d12-43af-41ee-8d71-cd8fae8160c9",
+          "description": "Feed breakfast",
+          "date": "2026-04-11",
+          "start_time": "13:20",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e43ac999-611d-4956-9fb9-042b7680e75b",
+          "description": "Teeth cleaning",
+          "date": "2026-03-24",
+          "start_time": "12:35",
+          "duration_minutes": 25,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9c18031d-c7c3-4065-ace3-106bea08c10b",
+          "description": "Morning walk",
+          "date": "2026-04-17",
+          "start_time": "17:35",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "6651a408-bd1b-40ba-96c0-6dde2dce6a3b",
+          "description": "Evening walk",
+          "date": "2026-04-02",
+          "start_time": "17:20",
+          "duration_minutes": 45,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "d6b33856-9943-43cd-9402-1081d7bbebb8",
+          "description": "Vet check",
+          "date": "2026-03-28",
+          "start_time": "15:30",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c23ff7bf-73a5-41e9-81a3-d94d7aa3b20a",
+          "description": "Vet check",
+          "date": "2026-03-31",
+          "start_time": "11:00",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5ed444c7-d94b-4b82-86f2-c376a0711572",
+          "description": "Bath",
+          "date": "2026-03-15",
+          "start_time": "06:25",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9c7fe2dc-2190-4066-822b-ddeedb7837c1",
+          "description": "Administer meds",
+          "date": "2026-04-05",
+          "start_time": "14:20",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "bafc5c14-d961-48e9-88f2-16a681666799",
+          "description": "Playtime",
+          "date": "2026-04-17",
+          "start_time": "07:50",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "477cd755-21cc-4933-bb88-741b27fcc09f",
+          "description": "Bath",
+          "date": "2026-03-22",
+          "start_time": "20:30",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ab33d03e-3168-4892-a6c5-390cd410d8b2",
+          "description": "Playtime",
+          "date": "2026-04-09",
+          "start_time": "15:55",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "5318a78e-63c8-48fb-b036-9bef7a1ae3f7",
+          "description": "Evening walk",
+          "date": "2026-03-22",
+          "start_time": "10:45",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "897f1fc1-d1dc-4d0b-b3bc-cf9fba912f00",
+          "description": "Grooming",
+          "date": "2026-04-24",
+          "start_time": "12:50",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6f07a7f8-5f90-4d35-8d16-12bd897d7fa3",
+          "description": "Playtime",
+          "date": "2026-04-05",
+          "start_time": "20:25",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "74563522-e3bb-492e-9ac3-de5e526d552b",
+          "description": "Flea treatment",
+          "date": "2026-04-11",
+          "start_time": "07:00",
+          "duration_minutes": 20,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5e7c96f8-8ec1-420c-9240-b995df8ac65c",
+          "description": "Nail trim",
+          "date": "2026-03-20",
+          "start_time": "17:20",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5bad0517-f194-48b7-93f7-e09a9363cf41",
+          "description": "Vet check",
+          "date": "2026-04-12",
+          "start_time": "19:05",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "80797104-41a4-425b-b413-1697b0e80f02",
+          "description": "Flea treatment",
+          "date": "2026-03-18",
+          "start_time": "19:25",
+          "duration_minutes": 45,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "6cde8018-71df-4743-817b-1ef9894c2bae",
+          "description": "Weight check",
+          "date": "2026-03-26",
+          "start_time": "09:30",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "98b95471-2887-4a81-9201-e5c9cd7c3486",
+          "description": "Playtime",
+          "date": "2026-03-21",
+          "start_time": "18:45",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "24f5a00c-03cd-4bf3-9470-e398b8c4aab1",
+          "description": "Teeth cleaning",
+          "date": "2026-04-09",
+          "start_time": "19:20",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "8d8f2e7c-7e09-4648-a123-4443cc62b281",
+          "description": "Nail trim",
+          "date": "2026-04-11",
+          "start_time": "13:35",
+          "duration_minutes": 35,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "dd753d8e-9a10-4a9d-b60a-dc3b5f6293e5",
+          "description": "Nail trim",
+          "date": "2026-04-10",
+          "start_time": "10:05",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "57e98cd4-fd78-44bb-9650-dd25e04d625c",
+          "description": "Feed breakfast",
+          "date": "2026-03-16",
+          "start_time": "12:50",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "03a82e22-f09a-4167-8f9c-a6e57a5f2ac5",
+          "description": "Weight check",
+          "date": "2026-03-23",
+          "start_time": "06:35",
+          "duration_minutes": 35,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e96553d3-9666-42d1-8013-9e73082295b3",
+          "description": "Grooming",
+          "date": "2026-03-20",
+          "start_time": "17:10",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "878817e0-1860-4abc-b535-4a3310867bbf",
+          "description": "Evening walk",
+          "date": "2026-03-29",
+          "start_time": "18:55",
+          "duration_minutes": 35,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "257a38f1-eaf0-4aab-b9a6-9aa905a27643",
+          "description": "Feed dinner",
+          "date": "2026-03-27",
+          "start_time": "19:15",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6f89ce73-3b9e-4f89-82a0-8694b84a6835",
+          "description": "Flea treatment",
+          "date": "2026-04-04",
+          "start_time": "17:30",
+          "duration_minutes": 60,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "96495f5c-125f-4e68-9edc-a92314455a7f",
+          "description": "Training",
+          "date": "2026-03-28",
+          "start_time": "19:25",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7008925b-aa7d-4481-8209-b65d3537c72c",
+          "description": "Nail trim",
+          "date": "2026-04-02",
+          "start_time": "17:05",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "93b0073b-d19d-4aa0-bd1e-137c980788bd",
+          "description": "Morning walk",
+          "date": "2026-04-04",
+          "start_time": "07:25",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "d9031517-1e2d-4753-80f3-5b06f73d01eb",
+          "description": "Weight check",
+          "date": "2026-04-04",
+          "start_time": "17:10",
+          "duration_minutes": 5,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "f5f3cd48-50ba-41c7-a486-472ba7668c7e",
+          "description": "Evening walk",
+          "date": "2026-03-18",
+          "start_time": "11:25",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3fca14ac-ce79-49bf-bf8c-ba05e14ba42c",
+          "description": "Nail trim",
+          "date": "2026-03-24",
+          "start_time": "15:05",
+          "duration_minutes": 40,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "d45197c3-5780-4ef7-9398-df961095c67b",
+      "name": "Max",
+      "species": "Dog",
+      "tasks": [
+        {
+          "id": "7728bf2f-b458-45e7-8a6a-10ec4c349c59",
+          "description": "Nail trim",
+          "date": "2026-04-01",
+          "start_time": "16:35",
+          "duration_minutes": 40,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "67157310-ebcb-45be-9323-86b264ed25ee",
+          "description": "Litter clean",
+          "date": "2026-04-27",
+          "start_time": "19:45",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "0826ba4f-a673-4842-ad3e-0de73cdfaaf8",
+          "description": "Feed dinner",
+          "date": "2026-04-16",
+          "start_time": "17:50",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1ef4de88-0f95-4e1b-ac94-4f6dc2b447c3",
+          "description": "Training",
+          "date": "2026-04-02",
+          "start_time": "10:55",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "26448d46-4286-464c-855b-cc9e062199e1",
+          "description": "Flea treatment",
+          "date": "2026-04-11",
+          "start_time": "11:00",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "7fc98282-3ade-4d58-a735-95d3537a975b",
+          "description": "Vet check",
+          "date": "2026-03-28",
+          "start_time": "06:35",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "6468006c-336b-4f3c-92a7-da2955471983",
+          "description": "Nail trim",
+          "date": "2026-04-10",
+          "start_time": "16:00",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "662f829a-83a8-4dd3-a22d-663803ac874f",
+          "description": "Morning walk",
+          "date": "2026-04-15",
+          "start_time": "08:00",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "73c344b5-4c32-4abf-ac4b-857aa1cc6b42",
+          "description": "Training",
+          "date": "2026-04-01",
+          "start_time": "17:45",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7fd6db3a-2ce2-44c8-a561-4136a8cf9717",
+          "description": "Litter clean",
+          "date": "2026-03-28",
+          "start_time": "12:55",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "67a54c09-4a49-4c11-bcd2-a3f0576a006b",
+          "description": "Grooming",
+          "date": "2026-04-17",
+          "start_time": "16:25",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "4468461a-e388-46d3-83d2-a19e307c64cb",
+          "description": "Administer meds",
+          "date": "2026-03-30",
+          "start_time": "07:15",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "76401122-e396-4bb8-b0a6-421effc94c44",
+          "description": "Vet check",
+          "date": "2026-04-06",
+          "start_time": "16:35",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5b28a79a-4490-43b2-85e3-a30207bda4b5",
+          "description": "Brushing",
+          "date": "2026-04-07",
+          "start_time": "07:10",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "64fe1a7d-8aac-4e2a-9bdf-c2e961820fe1",
+          "description": "Teeth cleaning",
+          "date": "2026-03-19",
+          "start_time": "14:50",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "85651033-3bb2-4a58-840a-9938b2a7dbe9",
+          "description": "Morning walk",
+          "date": "2026-04-12",
+          "start_time": "09:30",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "13a45e87-188e-476f-9ac7-b6afaebb9330",
+          "description": "Feed dinner",
+          "date": "2026-03-19",
+          "start_time": "10:00",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "538e3cec-53b6-45fc-be2c-c889c558a709",
+          "description": "Litter clean",
+          "date": "2026-04-06",
+          "start_time": "17:10",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a00ea1c1-761c-436f-b892-b9ae73479dbf",
+          "description": "Litter clean",
+          "date": "2026-04-25",
+          "start_time": "12:50",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "41a46cbb-d6a6-48d5-9a03-de58d41112f3",
+          "description": "Training",
+          "date": "2026-04-09",
+          "start_time": "16:15",
+          "duration_minutes": 40,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "edddeef2-6114-4d14-9669-d8e3881ce00c",
+          "description": "Nail trim",
+          "date": "2026-03-19",
+          "start_time": "06:30",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "8f569ef0-a5b3-4d81-9549-43d1bc599482",
+          "description": "Feed dinner",
+          "date": "2026-03-15",
+          "start_time": "16:50",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "8cf2c46c-5f6f-4436-a7b5-56df76bfa84e",
+          "description": "Grooming",
+          "date": "2026-03-27",
+          "start_time": "08:50",
+          "duration_minutes": 35,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "7f9bfe38-669d-432e-aae6-d2124b5f9558",
+          "description": "Feed breakfast",
+          "date": "2026-04-06",
+          "start_time": "15:25",
+          "duration_minutes": 45,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "1e32547a-6bc6-4d2d-89a5-ca03b86c5750",
+          "description": "Feed dinner",
+          "date": "2026-03-29",
+          "start_time": "19:25",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "f8698e13-0647-4c06-acfa-5570620172a2",
+          "description": "Teeth cleaning",
+          "date": "2026-03-21",
+          "start_time": "17:55",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c1fa11c3-f247-4fb8-8bed-8fbf3adf9c74",
+          "description": "Training",
+          "date": "2026-04-20",
+          "start_time": "15:10",
+          "duration_minutes": 40,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "439e964e-17b9-4db2-b820-39feb82816b7",
+          "description": "Feed dinner",
+          "date": "2026-04-02",
+          "start_time": "08:35",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "8739798b-bd1f-4070-bb85-77a5b491fa89",
+          "description": "Training",
+          "date": "2026-04-23",
+          "start_time": "11:05",
+          "duration_minutes": 10,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5b2c03c9-1296-4505-b976-74ba75d05b87",
+          "description": "Morning walk",
+          "date": "2026-03-29",
+          "start_time": "07:25",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a110829e-e9c0-424b-ae2e-d9496c3c5061",
+          "description": "Teeth cleaning",
+          "date": "2026-04-07",
+          "start_time": "14:20",
+          "duration_minutes": 5,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "bfa80533-8dbe-47a7-8be9-e9e2eb0a6ea3",
+          "description": "Weight check",
+          "date": "2026-03-20",
+          "start_time": "09:35",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "071e6575-966f-45c2-9755-d0aa7c7b8b71",
+          "description": "Evening walk",
+          "date": "2026-04-12",
+          "start_time": "13:40",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c21d02ab-c867-4a6c-9f48-5bca91fadc92",
+          "description": "Evening walk",
+          "date": "2026-03-31",
+          "start_time": "15:45",
+          "duration_minutes": 25,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "dc6334cb-f21f-46c8-bf47-71827b310c90",
+          "description": "Playtime",
+          "date": "2026-04-22",
+          "start_time": "06:00",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "28414f26-d808-4cef-891b-a3f1171e4359",
+          "description": "Weight check",
+          "date": "2026-04-06",
+          "start_time": "14:50",
+          "duration_minutes": 30,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "f7085bf6-668d-4280-83ea-77273278e17d",
+          "description": "Flea treatment",
+          "date": "2026-03-28",
+          "start_time": "11:55",
+          "duration_minutes": 15,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1b74fb20-c519-494d-aa5d-26072a000de9",
+          "description": "Litter clean",
+          "date": "2026-04-07",
+          "start_time": "10:45",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "4028e55f-68ab-4208-8a23-fdda8eb2449f",
+          "description": "Grooming",
+          "date": "2026-03-20",
+          "start_time": "12:10",
+          "duration_minutes": 40,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "87af2015-ec3e-44aa-885f-be08165826df",
+          "description": "Training",
+          "date": "2026-04-01",
+          "start_time": "06:35",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "bc2b5f26-f38d-428f-854c-ae39601c7550",
+          "description": "Evening walk",
+          "date": "2026-03-30",
+          "start_time": "18:40",
+          "duration_minutes": 5,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "f503aeef-1533-4556-a287-1144bba4c0fe",
+          "description": "Grooming",
+          "date": "2026-03-23",
+          "start_time": "07:50",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "20939869-b7a3-4de5-a0a2-c5271ac1810c",
+          "description": "Flea treatment",
+          "date": "2026-04-18",
+          "start_time": "18:45",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e45f25c8-e8ba-4dfd-81cc-55abf9a71184",
+          "description": "Grooming",
+          "date": "2026-04-18",
+          "start_time": "10:35",
+          "duration_minutes": 15,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e92a9945-ced2-4a13-9c55-f9b0541f6a3a",
+          "description": "Morning walk",
+          "date": "2026-04-10",
+          "start_time": "08:25",
+          "duration_minutes": 35,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "28efa254-0173-4d45-8f34-d64f0e8f0bac",
+          "description": "Brushing",
+          "date": "2026-04-14",
+          "start_time": "19:10",
+          "duration_minutes": 5,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "071bcd27-9476-427f-ab26-064850e46e53",
+          "description": "Brushing",
+          "date": "2026-04-11",
+          "start_time": "15:55",
+          "duration_minutes": 45,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "63cc6277-5e5b-4d86-bcd4-6b1cd2de92b5",
+          "description": "Evening walk",
+          "date": "2026-04-04",
+          "start_time": "13:35",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "eef16ca6-8ce8-42f8-ab4c-ed4b41e22697",
+          "description": "Flea treatment",
+          "date": "2026-04-13",
+          "start_time": "07:00",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "4a0575f7-0d31-4cbb-81bb-33cc7c4f7ab7",
+          "description": "Bath",
+          "date": "2026-04-04",
+          "start_time": "14:25",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7503dc09-f165-4c61-bec3-0973b9af55db",
+          "description": "Grooming",
+          "date": "2026-04-14",
+          "start_time": "06:50",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "79b8a477-384a-4493-90b9-f31523f1703f",
+          "description": "Playtime",
+          "date": "2026-03-30",
+          "start_time": "12:50",
+          "duration_minutes": 25,
+          "frequency": "monthly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "7eba8d0a-5c04-4c18-9eef-a391b2f91c4e",
+          "description": "Training",
+          "date": "2026-04-06",
+          "start_time": "07:05",
+          "duration_minutes": 40,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d8be2e19-c986-4922-af96-7b49345e6b02",
+          "description": "Feed dinner",
+          "date": "2026-03-30",
+          "start_time": "10:05",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "6cf5bafa-7063-4fde-8c70-20ec89c05ec5",
+          "description": "Brushing",
+          "date": "2026-03-27",
+          "start_time": "11:50",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "bc12740b-902d-410e-bdcf-4ce94e872441",
+          "description": "Training",
+          "date": "2026-04-07",
+          "start_time": "18:00",
+          "duration_minutes": 20,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "33fdc235-2f83-4dc9-828f-ca56994f3bc2",
+          "description": "Brushing",
+          "date": "2026-04-09",
+          "start_time": "12:05",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "82bc1dff-c5e7-45c8-96cc-d61d5ea98d4d",
+          "description": "Bath",
+          "date": "2026-03-17",
+          "start_time": "10:40",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "d7487ef4-8497-4b3d-aea1-452ae7e1b625",
+          "description": "Feed dinner",
+          "date": "2026-03-30",
+          "start_time": "08:30",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "8f526845-a1d8-4e3e-9d83-a2380be7df30",
+          "description": "Training",
+          "date": "2026-04-07",
+          "start_time": "09:20",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "032f1ba9-2959-492d-9507-eaf8bb15ac7c",
+          "description": "Brushing",
+          "date": "2026-04-10",
+          "start_time": "17:20",
+          "duration_minutes": 40,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1d150afe-b87a-46b7-b6e6-668062701adb",
+          "description": "Weight check",
+          "date": "2026-03-24",
+          "start_time": "17:00",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e1ab6de8-4604-46e3-a2d7-fcb71e195255",
+          "description": "Bath",
+          "date": "2026-03-14",
+          "start_time": "19:45",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "16dc2733-a376-4388-9fb5-3b5ff7f5e9f6",
+          "description": "Litter clean",
+          "date": "2026-04-02",
+          "start_time": "08:00",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "7d120860-5c1d-4457-bb48-95333b33a764",
+          "description": "Administer meds",
+          "date": "2026-04-12",
+          "start_time": "19:35",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "fd6d349b-2e0a-4674-9961-962e9a08ef80",
+          "description": "Vet check",
+          "date": "2026-03-26",
+          "start_time": "15:30",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "44afdd9c-17ae-4fde-b52d-6c95d3738a42",
+          "description": "Evening walk",
+          "date": "2026-03-23",
+          "start_time": "07:25",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "58189b2a-060e-4883-8515-50755da9c184",
+          "description": "Litter clean",
+          "date": "2026-03-24",
+          "start_time": "15:45",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "f468fd8a-a7f7-4c98-b38d-d4f6ce0c2745",
+          "description": "Evening walk",
+          "date": "2026-03-20",
+          "start_time": "18:35",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "0854c192-a445-45c6-aaac-82bbc3f8177d",
+          "description": "Bath",
+          "date": "2026-04-10",
+          "start_time": "07:10",
+          "duration_minutes": 25,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c326d464-1322-4a4b-9c2e-22ebc618342a",
+          "description": "Administer meds",
+          "date": "2026-03-15",
+          "start_time": "19:45",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "2b19134c-7c5e-47e5-9f38-56d49ce83d46",
+          "description": "Weight check",
+          "date": "2026-03-28",
+          "start_time": "12:25",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "5511d1b2-7de9-4aa3-919d-096fc32d3246",
+          "description": "Nail trim",
+          "date": "2026-04-06",
+          "start_time": "07:00",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "21dff46c-051d-4ce5-baf2-97b2343308b8",
+          "description": "Flea treatment",
+          "date": "2026-04-01",
+          "start_time": "17:55",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "a59b1782-67e0-421f-974b-078c427912a5",
+          "description": "Morning walk",
+          "date": "2026-03-15",
+          "start_time": "17:50",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "d983089d-a706-4ed5-9989-9c3b3754c89a",
+      "name": "Luna",
+      "species": "Dog",
+      "tasks": [
+        {
+          "id": "783e2abe-9034-471d-8970-85d431e691c0",
+          "description": "Administer meds",
+          "date": "2026-04-11",
+          "start_time": "15:40",
+          "duration_minutes": 25,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "0ab3f040-4945-4865-a53c-68cee7e3ba04",
+          "description": "Grooming",
+          "date": "2026-03-26",
+          "start_time": "17:10",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "0f8c3d1e-5594-479a-b2f5-26d0141589ec",
+          "description": "Training",
+          "date": "2026-03-15",
+          "start_time": "18:05",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "c9733e7f-5073-4c06-b059-316dc006748c",
+          "description": "Litter clean",
+          "date": "2026-03-29",
+          "start_time": "15:55",
+          "duration_minutes": 30,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a53e0a6d-2b67-4f2b-b192-78df4ae93a0b",
+          "description": "Feed breakfast",
+          "date": "2026-04-15",
+          "start_time": "15:30",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "1eeb660f-78aa-4599-83c9-bdd14ab1ab2a",
+          "description": "Nail trim",
+          "date": "2026-04-01",
+          "start_time": "07:40",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "1f73c6be-1019-4752-be21-4d1d589bc2a7",
+          "description": "Administer meds",
+          "date": "2026-03-31",
+          "start_time": "17:15",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "0db68f86-3bb4-4d72-9643-3ab9f1dc8a75",
+          "description": "Teeth cleaning",
+          "date": "2026-03-26",
+          "start_time": "12:15",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "7d744611-9721-4170-b970-8d3e871d12a4",
+          "description": "Playtime",
+          "date": "2026-04-11",
+          "start_time": "15:15",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "e35445b9-7ebf-4839-ab35-9d3bb60baced",
+          "description": "Grooming",
+          "date": "2026-04-14",
+          "start_time": "15:15",
+          "duration_minutes": 45,
+          "frequency": "monthly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "95a1abda-5379-4686-96fa-db4c68932e13",
+          "description": "Vet check",
+          "date": "2026-03-21",
+          "start_time": "20:35",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "23fead54-6cfd-44ea-9363-c0b4488fd48e",
+          "description": "Evening walk",
+          "date": "2026-03-30",
+          "start_time": "18:55",
+          "duration_minutes": 15,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "d74ce9d8-c711-4a01-92c8-be80cdca6912",
+          "description": "Feed breakfast",
+          "date": "2026-04-18",
+          "start_time": "09:55",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e5aef53a-c02d-4d06-8385-fb8e9ec74023",
+          "description": "Feed dinner",
+          "date": "2026-04-10",
+          "start_time": "07:05",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "8463770a-241c-4c5b-ba3a-9ec4253e4114",
+          "description": "Playtime",
+          "date": "2026-04-21",
+          "start_time": "15:45",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "0ff30dde-3e8a-49ff-b001-1bdf5754d0a2",
+          "description": "Feed dinner",
+          "date": "2026-04-16",
+          "start_time": "13:35",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "7608fa7d-2ab4-4730-a486-ee697ae3bf54",
+          "description": "Litter clean",
+          "date": "2026-03-15",
+          "start_time": "17:25",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "3d9048cd-1f43-45f2-99bf-9ec7caeb0005",
+          "description": "Administer meds",
+          "date": "2026-04-21",
+          "start_time": "07:00",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "eba67a1c-e64d-48db-b23c-48f38fb1ba63",
+          "description": "Grooming",
+          "date": "2026-03-29",
+          "start_time": "08:45",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "8d81ee10-94a3-4ada-9a1f-e0daa63bd8c2",
+          "description": "Weight check",
+          "date": "2026-04-08",
+          "start_time": "15:25",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e0530529-1626-4217-a60c-0291d7efee37",
+          "description": "Morning walk",
+          "date": "2026-03-28",
+          "start_time": "12:35",
+          "duration_minutes": 45,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "be3269bd-6073-4065-844f-10cb45f43d1a",
+          "description": "Weight check",
+          "date": "2026-04-13",
+          "start_time": "07:05",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "a275d336-2bde-4292-863f-f9a99ea51fca",
+          "description": "Administer meds",
+          "date": "2026-03-22",
+          "start_time": "18:10",
+          "duration_minutes": 30,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "c3d911a6-2f02-4f0a-b40e-6ef9be54ad4c",
+          "description": "Teeth cleaning",
+          "date": "2026-03-18",
+          "start_time": "11:35",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "24dd9c68-44e6-4b22-9d03-b24240a70fb7",
+          "description": "Feed dinner",
+          "date": "2026-04-21",
+          "start_time": "15:00",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "e2607ebb-04c0-40ed-aeed-39aad31b3127",
+          "description": "Teeth cleaning",
+          "date": "2026-04-22",
+          "start_time": "06:40",
+          "duration_minutes": 30,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "634490ad-979f-4d90-a313-60d28aca9a14",
+          "description": "Morning walk",
+          "date": "2026-04-23",
+          "start_time": "14:55",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "fde5728a-39ac-4b49-820b-0beb3f0c321f",
+          "description": "Feed dinner",
+          "date": "2026-04-16",
+          "start_time": "08:25",
+          "duration_minutes": 25,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "66d58408-56a3-4e1b-a571-3f1b40f7da9c",
+          "description": "Weight check",
+          "date": "2026-04-26",
+          "start_time": "13:15",
+          "duration_minutes": 25,
+          "frequency": "monthly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "076c6060-975d-45e9-bcb3-6688ea5214cd",
+          "description": "Playtime",
+          "date": "2026-04-18",
+          "start_time": "08:30",
+          "duration_minutes": 35,
+          "frequency": "monthly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "653b48ed-c6ee-4a9c-b358-30af2220074e",
+          "description": "Feed dinner",
+          "date": "2026-03-26",
+          "start_time": "19:40",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "b877629e-ae69-4ca0-9db4-14f1acc03727",
+          "description": "Feed breakfast",
+          "date": "2026-03-26",
+          "start_time": "15:10",
+          "duration_minutes": 40,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "1e492bef-bcd7-4274-87fb-aa270f728265",
+          "description": "Weight check",
+          "date": "2026-03-17",
+          "start_time": "17:00",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ee5305de-dcae-48c8-aa6c-d712b7d344c6",
+          "description": "Feed dinner",
+          "date": "2026-04-17",
+          "start_time": "12:50",
+          "duration_minutes": 10,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "2c73c251-62fa-40b5-b91c-4f5510913e20",
+          "description": "Flea treatment",
+          "date": "2026-03-22",
+          "start_time": "14:10",
+          "duration_minutes": 50,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "a78f20cf-dbf3-463e-8115-1764f010eb6e",
+          "description": "Nail trim",
+          "date": "2026-03-22",
+          "start_time": "07:25",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "efb7a955-ad75-4cd0-b2f2-b13dbcbba084",
+          "description": "Playtime",
+          "date": "2026-03-18",
+          "start_time": "17:25",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9790d602-3d0f-49ab-b0a9-d33f2ae60e0a",
+          "description": "Grooming",
+          "date": "2026-04-10",
+          "start_time": "14:55",
+          "duration_minutes": 15,
+          "frequency": "monthly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "7e9c9a54-4143-44c9-be6c-b36e832529c7",
+          "description": "Administer meds",
+          "date": "2026-04-17",
+          "start_time": "14:05",
+          "duration_minutes": 20,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "8ac4febb-30f0-45d2-86f4-a40451d09e4e",
+          "description": "Nail trim",
+          "date": "2026-04-10",
+          "start_time": "20:30",
+          "duration_minutes": 45,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "9d3fbd7c-f6bc-4f77-a57b-2d2386f5b9bc",
+          "description": "Bath",
+          "date": "2026-03-31",
+          "start_time": "20:55",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "897827fd-85aa-4946-8b75-553d5e471d51",
+          "description": "Bath",
+          "date": "2026-03-31",
+          "start_time": "11:25",
+          "duration_minutes": 10,
+          "frequency": "daily",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "6b10cd4c-4d70-4f12-b9f6-ba37493d1b4b",
+          "description": "Flea treatment",
+          "date": "2026-03-27",
+          "start_time": "18:55",
+          "duration_minutes": 25,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "050881d1-a696-425c-93ab-61af1ec0fa3d",
+          "description": "Bath",
+          "date": "2026-03-19",
+          "start_time": "10:45",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "f7048667-cc84-4249-b9fc-740567b2ec26",
+          "description": "Litter clean",
+          "date": "2026-03-26",
+          "start_time": "07:10",
+          "duration_minutes": 25,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3c0b5106-2730-4cda-892d-5891df2a5797",
+          "description": "Administer meds",
+          "date": "2026-04-05",
+          "start_time": "16:25",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "8bdd44f7-2e17-4b18-808b-7eaa5e283f89",
+          "description": "Morning walk",
+          "date": "2026-03-19",
+          "start_time": "19:55",
+          "duration_minutes": 35,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "45e929af-a8a3-4e91-b389-79f71fd3140e",
+          "description": "Flea treatment",
+          "date": "2026-04-01",
+          "start_time": "10:35",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "9bece247-1eb0-47af-9815-bf89f23a4f42",
+          "description": "Weight check",
+          "date": "2026-04-02",
+          "start_time": "14:10",
+          "duration_minutes": 5,
+          "frequency": "weekly",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "3a7d0082-e5f0-4db4-b0a4-e901e8cb4680",
+          "description": "Brushing",
+          "date": "2026-04-05",
+          "start_time": "17:00",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "288530cc-4754-45ff-8426-8ed5757c1b3d",
+          "description": "Feed dinner",
+          "date": "2026-03-24",
+          "start_time": "13:15",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "ed0266b8-22f2-47d3-bf28-be49befaa1f4",
+          "description": "Weight check",
+          "date": "2026-03-29",
+          "start_time": "10:15",
+          "duration_minutes": 50,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "856476d0-c608-4c6d-aac4-b64be97f61cc",
+          "description": "Nail trim",
+          "date": "2026-03-17",
+          "start_time": "10:10",
+          "duration_minutes": 20,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "b16ae5bb-b19d-41fc-bcc1-7045234bf2ef",
+          "description": "Training",
+          "date": "2026-03-22",
+          "start_time": "09:20",
+          "duration_minutes": 15,
+          "frequency": "daily",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "ed0d3c1a-c1fa-4757-b9f4-b26b0a3e5c56",
+          "description": "Litter clean",
+          "date": "2026-04-02",
+          "start_time": "16:10",
+          "duration_minutes": 30,
+          "frequency": "once",
+          "priority": 1,
+          "completed": false
+        },
+        {
+          "id": "9f6f2c89-2296-4f50-8f8e-631f7d8ff50e",
+          "description": "Evening walk",
+          "date": "2026-03-26",
+          "start_time": "19:35",
+          "duration_minutes": 45,
+          "frequency": "weekly",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "31df4933-829a-4c63-9d7a-8e6e46582a7a",
+          "description": "Teeth cleaning",
+          "date": "2026-03-15",
+          "start_time": "18:30",
+          "duration_minutes": 15,
+          "frequency": "once",
+          "priority": 2,
+          "completed": false
+        },
+        {
+          "id": "6dad9c01-6383-4a71-9435-980d27bec16e",
+          "description": "Bath",
+          "date": "2026-03-18",
+          "start_time": "17:30",
+          "duration_minutes": 35,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        },
+        {
+          "id": "4abf673b-116f-4bd4-8223-0fc0d6c4a9d0",
+          "description": "Morning walk",
+          "date": "2026-03-18",
+          "start_time": "15:25",
+          "duration_minutes": 25,
+          "frequency": "once",
+          "priority": 3,
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
