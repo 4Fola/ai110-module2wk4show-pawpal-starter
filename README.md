@@ -1,3 +1,10 @@
+
+# Smarter Scheduling
+- Zone‑aware sorting across DST changeovers in America/New_York (we use Mar 8, 2026, the spring‑forward date) so there’s no “02:xx” time and ordering is consistent; also checks the offset change (EST→EDT).
+- Recurrence correctness for daily, weekly, and monthly (including end‑of‑month clamping, both non‑leap and leap years).
+- Conflict detection toggle: no conflict in default same‑time mode, does flag overlap in time‑window mode.
+- Stability in Africa/Lagos and Asia/Karachi (no DST in either), verifying simple chronological order is preserved. (DST and aware arithmetic are handled by zoneinfo’s IANA database.)
+
 # PawPal+ (Module 2 Project)
 
 You are building **PawPal+**, a Streamlit app that helps a pet owner plan care tasks for their pet.

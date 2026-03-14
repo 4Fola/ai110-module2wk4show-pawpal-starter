@@ -1,2 +1,8 @@
 streamlit>=1.30
 pytest>=7.0
+
+# Dependency for Windows users so zoneinfo has tz data everywhere
+# On some Windows machines, Python’s zoneinfo module uses the tzdata 
+# package if the system doesn’t provide an IANA time zone database. 
+#Adding this line ensures our time‑zone logic works consistently across platforms.
+tzdata>=2024.1 ; platform_system == "Windows"
