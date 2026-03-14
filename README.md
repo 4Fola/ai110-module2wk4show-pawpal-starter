@@ -22,31 +22,35 @@
 # Confidence Level: &starf; &starf; &starf; &starf; &starf;
 
 ### 🧪 Tests
+
 **Final Demo**:
+
 <img src="FinalDemo.gif" alt="Final Demo">
 
 **Phase 2**:
+
 <img src="Phase2-QuickTest.jpg" alt="Phase 2 quick test">
 
 **Phase 4 & 5**:
+
 <img src="Phase4_5-QuickTest.jpg" alt="Phase 4&5 quick test">
 
 **Phase V**:
+
 <img src="Phase5-AutoTest.jpg" alt="Phase 5 automated test">
 
 **App run CLI & Web UI**:
+
 <img src="PawPal+.gif" alt="PawPal+ CLI & Streamlit Demo">
 
 **Table Preview**:
-<img src="TablePreview.jpg" alt="Table Preview">
 
-## 🧪 Tests
+<img src="TablePreview.jpg" alt="Table Preview">
 
 ### 🔐 Security notes
 - No secrets in code or JSON. If / when I later add APIs or login, will store credentials with `st.secrets` / `secrets.toml`.
 - Streamlit state (`st.session_state`) is per‑session only and resets on server restart.
 - Streamlit session state is per session; persistent data is `data.json` (auto‑loaded on app start).
-## 🔐 Security Notes
 
 ## 🧭 Optional Extensions (as requested)
 
@@ -56,8 +60,14 @@
 - [PawPal+ Repo](https://github.com/codepath/ai110-module2show-pawpal-starter)
 - [Python zoneinfo docs](https://github.com/pganssle/zoneinfo)
 - [TimeAndDate – New York 2026 DST](https://www.timeanddate.com/time/zone/usa/new-york-state)
-## 🔐 Reference / Works cited
-
+# -------------------------------
+# 
+#
+#
+#
+#
+#
+# -------------------------------
 
 
 
