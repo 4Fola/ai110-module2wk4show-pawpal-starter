@@ -9,13 +9,11 @@ security/auth guidance).
 from __future__ import annotations
 from dataclasses import dataclass, field   
 from enum import Enum
-from typing import List, Optional, Dict, Tuple, Any
-from datetime import date, datetime, timedelta
+from typing import List, Optional, Tuple, Dict, Any
+from datetime import date, timedelta
 import json
 import uuid
-import pytz
-
-from XXXpawpal_system import Scheduler
+from zoneinfo import ZoneInfo
 
 # -------------------------------
 # Enums
@@ -90,7 +88,7 @@ class Task:
     start_time: str # "HH:MM" format (local); basic same-time detection default
     duration_minutes: int = 0
     frequency: Frequency = Frequency.ONCE
-    prirority: Priority = Priority.MEDIUM
+    priority: Priority = Priority.MEDIUM
     completed: bool = False 
     id: str = field(default_factory=lambda: str(uuid.uuid4())) # Unique ID for each task
 
@@ -151,7 +149,7 @@ class Task:
     def from_dict(d: Dict[str, any]) -> "Task":
         return Task(
             id = d.get("id", str(uuid.uuid4())),
-            description = d["desciption"], 
+            description = d["description"], 
             date = date.fromisoformat(d["date"]), 
             start_time = d["start_time"],
             duration_minutes=int(d.get("duration_minutes", 0)),
@@ -202,7 +200,7 @@ class Owner:
             tasks.extend(p.get_tasks())
         return tasks
     
-     # OPTIONAL (JSON persistence)
+ # OPTIONAL (JSON persistence)
     def save_to_json(self, path: str) -> None:
         """
         Persist owner, pets, and tasks to a JSON file.
@@ -239,10 +237,11 @@ class Owner:
         return owner
 
 # -------------------------------
-# Scheduler shell (logic filled later)
+# Scheduler shell (Phase 4)
 # -------------------------------
-    """
-    Coordinates task organization and simple planning.
+
+class Scheduler:
+    """Coordinates task organization and simple planning.
 
     Time handling policy (Phase 1):
     - Default: point-in-time using Task.start_time (HH:MM) for sorting and *same-time* conflict detection.
@@ -254,30 +253,30 @@ class Owner:
     """
 
     @staticmethod
-    def sort_by_time(tasks: List[Task]) -> List[Task]:
-        """
-        Return tasks sorted by HH:MM string.
-        """
-        return sorted(tasks, key=lambda t: (t.date, t.start_time))
-    
+    def _aware_dt(task: Task, tzid: str):
+        from datetime import datetime
+        tz = ZoneInfo(tzid)
+        hh, mm = map(int, task.start_time.split(':'))
+        return datetime(task.date.year, task.date.month, task.date.day, hh, mm, tzinfo=tz)
+
     @staticmethod
-    def sort_by_priority_then_time(tasks: List[Task]) -> List[Task]:
-        """
-        Return tasks sorted by priority (High > Med > Low) then time.
-        NOTE: Enabled from Phase 1 per requirement for higher-quality scheduling.
-        """
-        return sorted(tasks, key=lambda t: (-int(t.priority), t.date, t.start_time))
-    
+    def sort_by_time(tasks: List[Task], *, working_tz: str = TZ_NY) -> List[Task]:
+        """Return tasks sorted by HH:MM string."""
+        return sorted(tasks, key=lambda t: (t.date, Scheduler._aware_dt(t, working_tz)))
+
+    @staticmethod
+    def sort_by_priority_then_time(tasks: List[Task], *, working_tz: str = TZ_NY) -> List[Task]:
+        """Return tasks sorted by priority (High > Med > Low) then time."""
+        return sorted(tasks, key=lambda t: (-int(t.priority), Scheduler._aware_dt(t, working_tz)))
+
     @staticmethod
     def filter_tasks(
-        tasks: List[Task],
-        pet_name: Optional[str] = None,
+       tasks: List[Task],
         status: Optional[str] = None,
         priority: Optional[Priority] = None,
     ) -> List[Task]:
-        """
-        Filter tasks by pet name (handled upstream), completion status, and priority.
-        """
+        """Filter tasks by pet name (handled upstream), completion status, and priority."""
+
         def ok(t: Task) -> bool:
             if status is not None:
                 if status.lower() == "completed" and not t.completed:
@@ -288,39 +287,62 @@ class Owner:
                 return False
             return True
         return [t for t in tasks if ok(t)]
-    
+
     @staticmethod
-    def detect_conflicts(tasks: List[Task]) -> List[Tuple[Task, Task, str]]:
+    def detect_conflicts(
+        tasks: List[Task], *, working_tz: str = TZ_NY, use_time_windows: bool = False
+        ) -> List[Tuple[Task, Task, str]]:
+        from collections import defaultdict
+        conflicts: List[Tuple[Task, Task, str]] = []
         """
         Detect conflicts among tasks for the same date.
         Default: same-time collision only (point-in-time).
         """
-        conflicts: List[Tuple[Task, Task, str]] = []
         # --- Default same-time detection ---
-        by_day: Dict[date, List[Task]] = {}
+        by_day: Dict[date, List[Task]] = defaultdict(list)
         for t in tasks:
-            by_day.setdefault(t.date, []).append(t)
-        for d, day_tasks in by_day.items():
-            seen_times: Dict[str, Task] = {}
-            for t in Scheduler.sort_by_time(day_tasks):
-                st = t.start_time
-                if st in seen_times:
-                    conflicts.append((seen_times[st], t, "Same start time"))
-                else:
-                    seen_times[st] = t
+            by_day[t.date].append(t)
+
+        if not use_time_windows:
+            for _, day_tasks in by_day.items():
+                seen: Dict[str, Task] = {}
+                for t in Scheduler.sort_by_time(day_tasks, working_tz=working_tz):
+                    st = t.start_time
+                    if st in seen:
+                        conflicts.append((seen[st], t, "Same start time"))
+                    else:
+                        seen[st] = t
+            return conflicts
+        for _, day_tasks in by_day.items():
+            ordered = Scheduler.sort_by_time(day_tasks, working_tz=working_tz)
+            aware = [(t, Scheduler._aware_dt(t, working_tz)) for t in ordered]
+            for i in range(len(aware)):
+                a, a_start = aware[i]
+                a_end = a_start
+                if a.duration_minutes > 0:
+                    from datetime import timedelta
+                    a_end = a_start + timedelta(minutes=a.duration_minutes)
+                for j in range(i + 1, len(aware)):
+                    b, b_start = aware[j]
+                    b_end = b_start
+                    if b.duration_minutes > 0:
+                        from datetime import timedelta
+                        b_end = b_start + timedelta(minutes=b.duration_minutes)
+                    if a_start < b_end and b_start < a_end:
+                        conflicts.append((a, b, "Overlapping time windows"))
         return conflicts
-    
+
     @staticmethod
     def generate_schedule(
         owner: Owner,
         target_date: date,
         time_budget_minutes: Optional[int] = None,
         priority_first: bool = True,
+        working_tz: str = TZ_NY,
+        use_time_windows: bool = False,
     ) -> Dict[str, Any]:
-        """
-        Produce an ordered list of tasks for the given date with basic explanation.
-        Implementation will be completed in Phase 4.
-        """
+        """Produce an ordered list of tasks for the given date with basic explanation."""
+
         # Gather tasks for the target day
         all_tasks = []
         pet_of: Dict[str, str] = {}
@@ -332,12 +354,12 @@ class Owner:
 
         # Sort
         ordered = (
-            Scheduler.sort_by_priority_then_time(all_tasks)
+            Scheduler.sort_by_priority_then_time(all_tasks, working_tz=working_tz)
             if priority_first
-            else Scheduler.sort_by_time(all_tasks)
+            else Scheduler.sort_by_time(all_tasks, working_tz=working_tz)
         )
 
-       # Filter by time budget if provided
+        # Filter by time budget if provided
         out_tasks: List[Task] = []
         total = 0
         explanations: List[str] = []
@@ -355,7 +377,7 @@ class Owner:
             )
 
         # Conflicts (informational)
-        conflicts = Scheduler.detect_conflicts(out_tasks)
+        conflicts = Scheduler.detect_conflicts(out_tasks, working_tz=working_tz, use_time_windows=use_time_windows)
         for a, b, reason in conflicts:
             explanations.append(
                 f"Warning: Conflict between '{a.description}' and '{b.description}' — {reason}"
@@ -363,6 +385,7 @@ class Owner:
 
         payload = {
             "date": target_date.isoformat(),
+            "working_tz": working_tz,
             "tasks": [
                 {
                     "task_id": t.id,
@@ -383,6 +406,7 @@ class Owner:
     @staticmethod
     def mark_task_complete(owner: Owner, task_id: str) -> Optional[Task]:
         """Mark task complete by id; if recurring, append the next occurrence to the same pet.
+
         Returns the created next-occurrence Task (if any), else None.
         """
         for p in owner.pets:
@@ -394,9 +418,4 @@ class Owner:
                         p.add_task(nxt)
                     return nxt
         return None
-
-
-
-
-
 
