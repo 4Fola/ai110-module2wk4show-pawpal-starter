@@ -22,7 +22,7 @@
 # Confidence Level: &starf; &starf; &starf; &starf; &starf;
 
 ### 🧪 Tests
-Demo:
+Final Demo:
 <img src="FinalDemo.gif" alt="Final Demo">
 Phase 2:
 <img src="Phase2-QuickTest.jpg" alt="Phase 2 quick test">
@@ -45,7 +45,7 @@ Table Preview:
 
 ## 🧭 Optional Extensions (as requested)
 
-### A) Priority coloring **with full legend** (in addition to badges)
+### A) Priority colouring **with full legend** (in addition to badges)
 
 ### 🔐 Reference / Works cited:
 - [PawPal+ Repo](https://github.com/codepath/ai110-module2show-pawpal-starter)
