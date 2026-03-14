@@ -97,3 +97,50 @@ def test_no_dst_schedules_are_stable_in_lagos_and_utc_plus5():
     karachi = Scheduler.sort_by_time(tasks, working_tz=TZ_UTC_PLUS_5)
     assert [t.description for t in lagos] == ["A", "B", "C"]
     assert [t.description for t in karachi] == ["A", "B", "C"]
+
+# Phase 5:
+# -----------------------------
+# 5) Ambiguous time during "fall back" using fold (zoneinfo behavior)
+# -----------------------------
+def test_zoneinfo_fold_handles_ambiguous_0130_on_fall_back_ny():
+    """
+    On 2026-11-01 in New York, clocks fall back at 02:00 -> 01:00.
+    01:30 occurs twice (ambiguous). 'fold=0' is the first (DST), 'fold=1' is the second (standard).
+    This test uses datetime + ZoneInfo directly to verify the offsets are different and that
+    UTC conversions differ by one hour. (Scheduler uses aware datetimes, so this ensures
+    the platform's zoneinfo behaves correctly.)
+    """
+    from datetime import datetime, timezone
+    from zoneinfo import ZoneInfo
+
+    tz = ZoneInfo(TZ_NY)
+    # First 01:30 (DST, UTC-4)
+    dt1 = datetime(2026, 11, 1, 1, 30, tzinfo=tz).replace(fold=0)
+    # Second 01:30 (Standard, UTC-5)
+    dt2 = datetime(2026, 11, 1, 1, 30, tzinfo=tz).replace(fold=1)
+
+    # Offsets should differ by 1 hour, and UTC instants should differ by 1 hour
+    assert dt1.utcoffset() != dt2.utcoffset()
+    assert (dt2.astimezone(timezone.utc) - dt1.astimezone(timezone.utc)).total_seconds() == 3600
+
+
+# -----------------------------
+# 6) Scheduler behavior on fall back: same local time conflict
+# -----------------------------
+def test_conflict_on_fall_back_same_local_time_ny():
+    """
+    Two tasks at 01:30 local on 2026-11-01 in New York should conflict in default (point-in-time) mode,
+    because Scheduler's same-time detection compares local HH:MM strings.
+    """
+    d = date(2026, 11, 1)
+    a = Task(description="First 01:30",  date=d, start_time="01:30")
+    b = Task(description="Second 01:30", date=d, start_time="01:30")
+
+    owner = Owner("Owner")
+    pet = Pet(name="Buddy", species="Dog", tasks=[a, b])
+    owner.add_pet(pet)
+
+    # Default same-time conflict should trigger exactly one "Same start time"
+    conflicts = Scheduler.detect_conflicts(owner.get_all_tasks(), working_tz=TZ_NY, use_time_windows=False)
+    assert len(conflicts) >= 1
+    assert any("Same start time" in reason for _, _, reason in conflicts)   

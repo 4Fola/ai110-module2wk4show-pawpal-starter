@@ -150,8 +150,8 @@ with schedule_tab:
             target_date=day,
             time_budget_minutes=budget,
             priority_first=priority_first,
-            working_tz=st.session_state.display_tz,
-            use_time_windows=use_windows,
+            working_tz=st.session_state.display_tz, # use selected IANA zone
+            use_time_windows=use_windows, # enable/disable window overlap conflicts
         )
         tasks = payload['tasks']
 
